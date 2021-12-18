@@ -6,7 +6,7 @@ Comes with basic obstacle avoidance maneuver<br />
 <br />
 ![alt text](https://github.com/jibjab1337/gps_guided_autonomous_vehicle/blob/main/Final%20design.jpg)
 <br />
-Version 1 - Added functionality through text menu to allow multiple destinations (up to 4)<br />
+## Version 1 - Added functionality through text menu to allow multiple destinations (up to 4)<br />
 Text menu is through Serial monitor which on the vehicle goes to Serial port 2 through the HM-10 Bluetooth module<br />
 <br />
 Note: The turns must be calibrated by changing the inputs into the delay() functions of the movements. This is up to your own discretion depending on your environment and wheels<br />
@@ -15,7 +15,7 @@ Note: The turns must be calibrated by changing the inputs into the delay() funct
 <br />
 <br />
 <br />
-Libraries used:
+## Libraries used:
 TinyGPS++ <br />
 Arduino-HMC5883L-master Version: 1.1.0 (c) 2014 Korneliusz Jarzebski: https://github.com/jarzebski/Arduino-HMC5883L/blob/master/HMC5883L.h<br />
 SoftwareSerial.h<br />
@@ -26,7 +26,7 @@ math.h<br />
 <br />
 <br />
 <br />
-Materials/Equipment used in this project:<br />
+## Materials/Equipment used in this project:<br />
 Arduino Mega<br />
 Small RC Car chassis/body with four DC motor wheels - Geared Motor DC 6V/200RPM (Any universal 6V DC motor from an RC car will do)<br />
 L298N Motor Driver<br />
@@ -46,7 +46,7 @@ Smartphone Application used with Bluetooth: "Serial Bluetooth Terminal" by Kai M
 <br />
 <br />
 <br />
-Wiring<br />
+## Wiring<br />
 <br />
 Arduino Mega GND is connected to Negative end of 12 V Power Supply of batteries<br />
 <br />
