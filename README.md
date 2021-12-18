@@ -1,6 +1,9 @@
 # gps_guided_autonomous_vehicle
 A project on a small autonomous vehicle guided by GPS and compass which can avoid small simple objects<br />
 <br />
+Input one or multiple destinations manually through a text menu on a Bluetooth terminal and the vehicle will move to its destination<br />
+Comes with basic obstacle avoidance maneuver<br />
+<br />
 ![alt text](https://github.com/jibjab1337/gps_guided_autonomous_vehicle/blob/main/Final%20design.jpg)
 <br />
 Version 1 - Added functionality through text menu to allow multiple destinations (up to 4)<br />
