@@ -3,8 +3,8 @@ A project on a small autonomous vehicle guided by GPS and compass which can avoi
 <br />
 ![alt text](https://github.com/jibjab1337/gps_guided_autonomous_vehicle/blob/main/Final%20design.jpg)
 <br />
-Version 1 - Added functionality through text menu to allow multiple destinations (up to 4)
-Text menu is through Serial monitor which on the vehicle goes to Serial port 2 through the HM-10 Bluetooth module
+Version 1 - Added functionality through text menu to allow multiple destinations (up to 4)<br />
+Text menu is through Serial monitor which on the vehicle goes to Serial port 2 through the HM-10 Bluetooth module<br />
 <br />
 Note: The turns must be calibrated by changing the inputs into the delay() functions of the movements. This is up to your own discretion depending on your environment and wheels<br />
 <br />
@@ -31,6 +31,7 @@ Green LED light<br />
 300 Ohm resistor<br />
 Breadboard jumper wires and a breadboard (you are free to solder the cables)<br />
 <br />
+You need a smartphone or a virtual machine on your computer for Android in order to wirelessly communicate with the vehicle<br />
 Smartphone Application used with Bluetooth: "Serial Bluetooth Terminal" by Kai Morich on Google Play Store<br />
 <br />
 <br />
