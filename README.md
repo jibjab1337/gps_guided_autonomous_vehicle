@@ -9,12 +9,17 @@ Text menu is through Serial monitor which on the vehicle goes to Serial port 2 t
 Note: The turns must be calibrated by changing the inputs into the delay() functions of the movements. This is up to your own discretion depending on your environment and wheels<br />
 <br />
 <br />
+<br />
+<br />
+<br />
 Libraries used:
 TinyGPS++ <br />
 Arduino-HMC5883L-master Version: 1.1.0 (c) 2014 Korneliusz Jarzebski: https://github.com/jarzebski/Arduino-HMC5883L/blob/master/HMC5883L.h<br />
 SoftwareSerial.h<br />
 Wire.h<br />
 math.h<br />
+<br />
+<br />
 <br />
 <br />
 <br />
