@@ -4,6 +4,8 @@ A project on a small autonomous vehicle guided by GPS and compass which can avoi
 Version 1 - Added functionality through text menu to allow multiple destinations (up to 4)
 Text menu is through Serial monitor which on the vehicle goes to Serial port 2 through the HM-10 Bluetooth module
 
+Note: The turns must be calibrated by changing the inputs into the delay() functions of the movements. This is up to your own discretion depending on your environment and wheels
+
 
 Libraries used:
 TinyGPS++ 
