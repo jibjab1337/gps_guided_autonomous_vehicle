@@ -4,8 +4,11 @@ An Arduino project on a small autonomous vehicle guided by GPS and compass which
 Input one or multiple destinations manually through a text menu on a Bluetooth terminal and the vehicle will move to its destination<br />
 Comes with basic obstacle avoidance maneuver<br />
 <br />
+This is the final design of the vehicle<br />
 ![alt text](https://github.com/jibjab1337/gps_guided_autonomous_vehicle/blob/main/Final%20design.jpg)
 <br />
+Example of the text menu ran through the Bluetooth App on Android<br />
+![alt text](https://github.com/jibjab1337/gps_guided_autonomous_vehicle/blob/main/Bluetooth_Serial_Monitor_Text_Menu.jpg)
 ## Version 1 - Added functionality through text menu to allow multiple destinations (up to 4)<br />
 Text menu is through Serial monitor which on the vehicle goes to Serial port 2 through the HM-10 Bluetooth module<br />
 <br />
