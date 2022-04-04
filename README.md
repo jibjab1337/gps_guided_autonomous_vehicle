@@ -17,7 +17,7 @@ Please note the placement of each component, especially the digital magnetometer
 5. The vehicle should then begin turning towards its destination<br />
 6. If the vehicle is not facing within 10 degrees of its destination, it will correct itself. Please note that these turn corrections must be short, quick turns and thus it is up to you to hardcode the specific millisecond inputs - if your turns are too wide or too short, the vehicle will take longer to move to its destination<br />
 7. If the vehicle detects a small simple object in front of its sensors, it will proceed to turn on an LED connected to pin 2 and do a short turn. After the turn, it will correct its bearing and proceed again towards its destination<br />
-8. Once the vehicle detects that it's within 3 meters of its destination (this distance is chosen because it is fairly common with GPS to have a small radius of inaccuracy) it will stop and tell you through the test that you have arrived. It will then print out its final GPS coordinates.<br />
+8. Once the vehicle detects that it's within 3 meters of its destination (this distance is chosen because it is fairly common with GPS to have a small radius of inaccuracy) it will stop and tell you through text that you have arrived. It will then print out its final GPS coordinates.<br />
 
 
 ## Important notes<br />
