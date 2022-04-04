@@ -8,14 +8,13 @@ This is the final design of the vehicle<br />
 ![alt text](https://github.com/jibjab1337/gps_guided_autonomous_vehicle/blob/main/Final%20design.jpg)
 <br />
 Please note the placement of each component, especially the digital magnetometer. The digital magnetometer must be placed at least 15 cm away from the other components due to it being very sensitive to electrical components such as the motor driver and power supply - hence why it is on a makeshift small cardboard tower.<br />
-Example of the text menu ran through the Bluetooth App on Android<br />
+
 ## How it works<br />
 1. Turn on the vehicle and connect to the Bluetooth on your smartphone. You will know you are connected if you see the text menu appear<br />
 2. Enter character commands in the Bluetooth app as well as your GPS coordinates (up to 6 decimal places)<br />
 3. Once you've entered your coordinates, you will be taken to another text menu with options to move the vehicle and automation. You must test the turns of your vehicle and change the millisecond inputs to ALL the turns since all turns and movements have hardcoded millisecond inputs.<br />
 4. If you're satisfied with the turns and movements of your own vehicle, proceed to the automation option<br />
 5. The vehicle should then begin turning towards its destination<br />
-
 
 
 ## Important notes<br />
@@ -26,10 +25,7 @@ Example of the text menu ran through the Bluetooth App on Android<br />
 5. Digital magnetometer must be placed 15 cm away from any electrical component of the vehicle. I chose to put it on a makeshift 20 cm tall tower. If you don't do this, you will not get proper angles from the compass. Also, the model I bought is very sensitive to its environment; I would test out the compass in different areas of my college campus and would find that the compass just did not work in specific areas. All angles in this project range from 0.00 to 359.99 degrees with 0 degrees being north, 90 degrees being east, 180 degrees being south, 270 degrees being west and 359.99 degrees being north again. To test if you calibrated your compass correctly, pick up the vehicle and have it face the general direction of true north, south, east, west and see if the angle bearing values closely match the numbers I outlined.<br />
 
 
-
-
-
-
+Example of the text menu ran through the Bluetooth App on Android<br />
 ![alt text](https://github.com/jibjab1337/gps_guided_autonomous_vehicle/blob/main/Bluetooth_Serial_Monitor_Text_Menu.jpg)
 ## Version 1 - Added functionality through text menu to allow multiple destinations (up to 4)<br />
 Text menu is through Serial monitor which on the vehicle goes to Serial port 2 through the HM-10 Bluetooth module<br />
